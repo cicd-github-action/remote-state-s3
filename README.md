@@ -12,6 +12,7 @@ run command
 ```shell
 cd  01-dynamodb/
 tfip && tfa 
+cd -
 ```
 
 ### Step 2. Change directory
@@ -19,6 +20,7 @@ run command
 ```shell
 cd   02-s3-bucket/
 tfip tfa 
+cd - 
 ```
 
 ### Step 2. Change directory
@@ -26,7 +28,12 @@ run command
 ```shell
 cd 03-backend/
 tfip tfa 
+cd - 
 ```
+
+Now you should be able to store terraform state remotely in the backend.tf file. 
+
+### More about Terraform State 
 
 Managing Terraform State – Best Practices & Examples
 Managing Terraform Remote State by Implementing a Remote Backend
