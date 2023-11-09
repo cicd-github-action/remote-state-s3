@@ -10,7 +10,7 @@ Set up a secure Terraform backend using AWS S3 + DynamoDB
 ### Step 1. Change directory
 run command 
 ```shell
-cd  01-dynamodb/
+cd 01-dynamodb/
 tfip && tfa 
 cd -
 ```
@@ -18,8 +18,8 @@ cd -
 ### Step 2. Change directory
 run command 
 ```shell
-cd   02-s3-bucket/
-tfip tfa 
+cd 02-s3-bucket/
+tfip && tfa 
 cd - 
 ```
 
@@ -27,7 +27,7 @@ cd -
 run command
 ```shell
 cd 03-backend/
-tfip tfa 
+tfip && tfa 
 cd - 
 ```
 
