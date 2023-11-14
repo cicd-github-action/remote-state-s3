@@ -11,7 +11,7 @@ Set up a secure Terraform backend using AWS S3 + DynamoDB
 run command 
 ```shell
 cd 01-dynamodb/
-tfip && tfa 
+terraform init && terraform fmt && terraform validate && terraform plan && terraform apply -auto-approve
 cd -
 ```
 
@@ -19,7 +19,7 @@ cd -
 run command 
 ```shell
 cd 02-s3-bucket/
-tfip && tfa 
+terraform init && terraform fmt && terraform validate && terraform plan && terraform apply -auto-approve
 cd - 
 ```
 
@@ -27,7 +27,7 @@ cd -
 run command
 ```shell
 cd 03-backend/
-tfip && tfa 
+terraform init && terraform fmt && terraform validate && terraform plan && terraform apply -auto-approve
 cd - 
 ```
 
